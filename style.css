@@ -26,9 +26,6 @@ nav ul li {
    justify-content: space-around;
 
 }
-.section{
-    align-items: center;
-}
 .section-one, .section-two, .section-three, .section-four{
     border: 3px #3882f6 solid;
     border-radius: 10px;
