@@ -8,6 +8,7 @@ body{
 .hero{
     display: flex;
     margin: 20px;
+    padding: 40px;
     justify-content: space-around;
 }
 nav ul{
@@ -24,6 +25,7 @@ nav ul li {
     margin: 60px;
     display: flex;
    justify-content: space-around;
+   padding: 60px;
 
 }
 .section-one, .section-two, .section-three, .section-four{
@@ -32,4 +34,20 @@ nav ul li {
     height: 100px;
     width: 100px;
     padding: 30px;
+}
+.sub-section{
+    background-color: #e5e7eb;
+    padding: 240px;
+}
+.sign-up{
+    display: flex;
+    margin: 120px;
+    border-radius: 10px;
+    padding: 60px;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer{
+    background-color: #1f2937;
 }
