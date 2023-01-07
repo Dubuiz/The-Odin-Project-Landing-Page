@@ -3,12 +3,16 @@ body{
 }
 .hero-section{
     background-color: #1f2937;
-    height: 400px;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
 }
 .hero{
     display: flex;
     margin: 20px;
-    padding: 40px;
+    padding: 60px;
     justify-content: space-around;
 }
 nav ul{
@@ -20,6 +24,7 @@ nav ul li {
     display: block; 
     padding: 20px; 
     margin: 20px;
+    color: white;
    } 
 .main-section{
     margin: 60px;
@@ -35,9 +40,13 @@ nav ul li {
     width: 100px;
     padding: 30px;
 }
+.shape{
+    
+}
 .sub-section{
     background-color: #e5e7eb;
-    padding: 240px;
+    
+    padding: 100px;
 }
 .sign-up{
     display: flex;
@@ -50,4 +59,17 @@ nav ul li {
 }
 .footer{
     background-color: #1f2937;
+    padding: 30px;
+    margin: auto 50;
+    margin-bottom: 0;
+    justify-items: center;
+}
+.place{
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+button{
+    padding: 10px 25px;
+    border: 1px solid;
+    border-radius: 6px;
 }
