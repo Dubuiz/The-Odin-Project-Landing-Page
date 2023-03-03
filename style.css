@@ -15,22 +15,31 @@ h1{
     padding: 60px;
     justify-content: space-around;
 }
-nav ul{
+.nav{
+    display: flex;
+    align-items: center;
+    margin: auto 40px;
+}
+.nav h3{
+    color: white;
+}
+ul{
     display: flex;
     list-style: none;
-    margin: 0;
+    margin: 20px;
 }
-nav ul li { 
+li { 
     display: block; 
     padding: 20px; 
-    margin: 20px;
+    margin-right: 180px;
     color: white;
    } 
 .main-section{
     margin: 60px;
     display: flex;
-   justify-content: space-around;
-   padding: 60px;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 60px;
 
 }
 .section-one, .section-two, .section-three, .section-four{
@@ -45,7 +54,8 @@ nav ul li {
 }
 .sub-section{
     background-color: #e5e7eb;
-    
+    justify-content: center;
+    align-items: center;
     padding: 100px;
 }
 .sign-up{
